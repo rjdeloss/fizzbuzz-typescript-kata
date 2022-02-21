@@ -1,0 +1,24 @@
+{
+  "name": "fizzbuzz-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fizzbuzz": "node ./build/cli.js fizzbuzz",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "fizzbuzz": "./biuld/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.19",
+    "@types/yargs": "^17.0.8",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "yargs": "^17.3.1"
+  }
+}
